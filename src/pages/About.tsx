@@ -1,35 +1,41 @@
 function About() {
   return (
-    <div className="flex flex-col gap-2 text-xl lg:text-md">
-      <p>ku computer science '25</p>
-
+    <div className="flex flex-col gap-2 text-xl lg:text-md items-start">
       <p>
-        incoming web intern @{" "}
+        computer science @{" "}
+        <a href="https://www.ku.edu/" target="_blank">
+          ku
+        </a>
+      </p>
+      <p>
+        - incoming web intern @{" "}
         <a href="https://www.cboe.com/" target="_blank">
           cboe
         </a>
       </p>
       <p>
-        prev. tech lead @{" "}
+        - prev. tech lead @{" "}
         <a href="https://hackku.org/" target="_blank">
           hackku
         </a>
       </p>
       <p>
-        prev. hft intern @{" "}
+        - prev. hft intern @{" "}
         <a href="https://www.tradebot.com/" target="_blank">
           tradebot
         </a>
       </p>
-
-      <div className="flex gap-2 justify-center">
+      <p className="flex gap-2 justify-center">
         <a href="https://l.willwhitehead.com/" target="_blank">
-          li
+          linkedin
         </a>
         <a href="https://g.willwhitehead.com/" target="_blank">
-          gh
+          github
         </a>
-      </div>
+        <a href="https://r.willwhitehead.com/" target="_blank">
+          resume
+        </a>
+      </p>
     </div>
   );
 }
