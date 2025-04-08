@@ -13,16 +13,17 @@ function About() {
           cboe
         </a>
       </p>
+
+      <p>
+        - prev. quant intern @{" "}
+        <a href="https://www.tradebot.com/" target="_blank">
+          tradebot
+        </a>
+      </p>
       <p>
         - prev. tech lead @{" "}
         <a href="https://hackku.org/" target="_blank">
           hackku
-        </a>
-      </p>
-      <p>
-        - prev. hft intern @{" "}
-        <a href="https://www.tradebot.com/" target="_blank">
-          tradebot
         </a>
       </p>
       <p className="flex gap-2 justify-center">
