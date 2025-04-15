@@ -33,7 +33,7 @@ function About() {
         <a href="https://g.willwhitehead.com/" target="_blank">
           github
         </a>
-        <a href="https://r.willwhitehead.com/" target="_blank">
+        <a href="/resume.pdf" target="_blank">
           resume
         </a>
       </p>
